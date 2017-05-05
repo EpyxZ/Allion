@@ -978,12 +978,16 @@ static const char *strDNSSeed[][2] = {
     {"node2.trollpay.com", "node2.trollpay.com"},
     {"node3.trollpay.com", "node3.trollpay.com"},
     {"node4.trollpay.com", "node4.trollpay.com"},
-    {"node5.trollpay.com", "node5.trollpay.com"},
-    {"node6.trollpay.com", "node6.trollpay.com"},
-    {"node7.trollpay.com", "node7.trollpay.com"},
-    {"node8.trollpay.com", "node8.trollpay.com"},
-    {"node9.trollpay.com", "node9.trollpay.com"},
-    {"node10.trollpay.com", "node10.trollpay.com"}
+    {"node1.allion.xyz", "node1.allion.xyz"},
+    {"node2.allion.xyz", "node2.allion.xyz"},
+    {"node3.allion.xyz", "node3.allion.xyz"},
+    {"node4.allion.xyz", "node4.allion.xyz"},
+    {"node5.allion.xyz", "node5.allion.xyz"},
+    {"node6.allion.xyz", "node6.allion.xyz"},
+    {"node7.allion.xyz", "node7.allion.xyz"},
+    {"node8.allion.xyz", "node8.allion.xyz"},
+    {"node9.allion.xyz", "node9.allion.xyz"},
+    {"node10.allion.xyz", "node10.allion.xyz"}
 };
 
 void ThreadDNSAddressSeed(void* parg)

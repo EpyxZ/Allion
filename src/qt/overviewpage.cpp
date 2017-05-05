@@ -12,6 +12,8 @@
 #include <QAbstractItemDelegate>
 #include <QPainter>
 
+#include <QDesktopServices>
+
 #define DECORATION_SIZE 64
 #define NUM_ITEMS 3
 
@@ -231,4 +233,29 @@ void OverviewPage::showOutOfSyncWarning(bool fShow)
 {
     ui->labelWalletStatus->setVisible(fShow);
     ui->labelTransactionsStatus->setVisible(fShow);
+}
+
+void OverviewPage::on_commandLinkButton_clicked()
+{
+    QString link = "https://www.cryptopia.co.nz/Exchange/?market=ALL_BTC";
+    QDesktopServices::openUrl(QUrl(link));
+}
+
+void OverviewPage::on_commandLinkButton_2_clicked()
+{
+    QString link = "https://yobit.io/en/trade/ALL/BTC/?bonus=Lgeye";
+    QDesktopServices::openUrl(QUrl(link));
+}
+
+void OverviewPage::on_commandLinkButton_3_clicked()
+{
+    QString link = "https://www.coinexchange.io/market/ALL/BTC?r=844c4e9d";
+    QDesktopServices::openUrl(QUrl(link));
+
+}
+
+void OverviewPage::on_commandLinkButton_4_clicked()
+{
+    QString link = "https://novaexchange.com/market/BTC_ALL/";
+    QDesktopServices::openUrl(QUrl(link));
 }

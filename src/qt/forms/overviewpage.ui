@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>573</width>
-    <height>342</height>
+    <height>438</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -336,6 +336,34 @@
         </size>
        </property>
       </spacer>
+     </item>
+     <item>
+      <widget class="QCommandLinkButton" name="commandLinkButton">
+       <property name="text">
+        <string>Cryptopia</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCommandLinkButton" name="commandLinkButton_2">
+       <property name="text">
+        <string>Yobit</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCommandLinkButton" name="commandLinkButton_3">
+       <property name="text">
+        <string>CoinExchange</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCommandLinkButton" name="commandLinkButton_4">
+       <property name="text">
+        <string>NovaExchange</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </item>
